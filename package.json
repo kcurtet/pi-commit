@@ -1,0 +1,14 @@
+{
+	"name": "pi-commit",
+	"version": "0.1.0",
+	"description": "/commit command for pi: split changes into Conventional Commits",
+	"keywords": ["pi-package"],
+	"license": "MIT",
+	"repository": "github:kcurtet/pi-commit",
+	"pi": {
+		"extensions": ["./index.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}

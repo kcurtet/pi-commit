@@ -20,13 +20,9 @@ In headless mode (`pi -p ...`) it defaults to commit + push.
 
 ## Install
 
-Symlink this folder into your pi extensions directory:
-
 ```sh
-ln -s /path/to/pi-commit ~/.pi/agent/extensions/pi-commit
+pi install git:https://github.com/kcurtet/pi-commit
 ```
-
-No build step needed — pi loads extensions with jiti and resolves `@earendil-works/pi-coding-agent` automatically.
 
 ## Usage
 
